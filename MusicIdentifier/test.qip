@@ -1,0 +1,5 @@
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) cpu_0.sdc]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) up_avalon_clocks_0.v]
+ set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) C:/altera/90/ip/University_Program/altera_up_avalon_clocks/altera_up_avalon_clocks_hw.tcl]
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID 485B39EFEBEA0000015153844E3A 
+ 

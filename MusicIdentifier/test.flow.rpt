@@ -1,0 +1,123 @@
+Flow report for test
+Sun Nov 29 17:26:25 2015
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++------------------------------------+------------------------------------------+
+; Flow Status                        ; Successful - Sun Nov 29 17:26:25 2015    ;
+; Quartus II Version                 ; 9.0 Build 132 02/25/2009 SJ Full Version ;
+; Revision Name                      ; test                                     ;
+; Top-level Entity Name              ; Block1                                   ;
+; Family                             ; Cyclone II                               ;
+; Device                             ; EP2C35F672C6                             ;
+; Timing Models                      ; Final                                    ;
+; Met timing requirements            ; Yes                                      ;
+; Total logic elements               ; 3,150 / 33,216 ( 9 % )                   ;
+;     Total combinational functions  ; 2,824 / 33,216 ( 9 % )                   ;
+;     Dedicated logic registers      ; 1,841 / 33,216 ( 6 % )                   ;
+; Total registers                    ; 1909                                     ;
+; Total pins                         ; 48 / 475 ( 10 % )                        ;
+; Total virtual pins                 ; 0                                        ;
+; Total memory bits                  ; 10,387 / 483,840 ( 2 % )                 ;
+; Embedded Multiplier 9-bit elements ; 7 / 70 ( 10 % )                          ;
+; Total PLLs                         ; 1 / 4 ( 25 % )                           ;
++------------------------------------+------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 11/29/2015 17:24:58 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; test                ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                              ;
++------------------------------------+-------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                                     ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+-------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 79556651248618.144880529821952            ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                                        ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                                         ; --            ; --          ; --             ;
+; MISC_FILE                          ; C:/Users/MicroAdmin/Desktop/test/test.dpf ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                                  ; --            ; Block1      ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                    ; --            ; Block1      ; Top            ;
+; SOPC_BUILDER_SIGNATURE_ID          ; 485B39EFEBEA0000015153844E3A              ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                   ; Block1                                    ; test          ; --          ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                       ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+-------------------------------------------+---------------+-------------+----------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis    ; 00:00:42     ; 1.0                     ; 289 MB              ; 00:00:36                           ;
+; Fitter                  ; 00:00:24     ; 1.2                     ; 309 MB              ; 00:00:23                           ;
+; Assembler               ; 00:00:05     ; 1.0                     ; 270 MB              ; 00:00:05                           ;
+; Classic Timing Analyzer ; 00:00:02     ; 1.0                     ; 196 MB              ; 00:00:02                           ;
+; Total                   ; 00:01:13     ; --                      ; --                  ; 00:01:06                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                          ;
++-------------------------+------------------+---------------+------------+----------------+
+; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++-------------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis    ; MicroAdmin-PC    ; Windows Vista ; 6.1        ; x86_64         ;
+; Fitter                  ; MicroAdmin-PC    ; Windows Vista ; 6.1        ; x86_64         ;
+; Assembler               ; MicroAdmin-PC    ; Windows Vista ; 6.1        ; x86_64         ;
+; Classic Timing Analyzer ; MicroAdmin-PC    ; Windows Vista ; 6.1        ; x86_64         ;
++-------------------------+------------------+---------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off test -c test
+quartus_fit --read_settings_files=off --write_settings_files=off test -c test
+quartus_asm --read_settings_files=off --write_settings_files=off test -c test
+quartus_tan --read_settings_files=off --write_settings_files=off test -c test --timing_analysis_only
+
+
+

@@ -1,0 +1,77 @@
+Altera SOPC Builder Version 9.00 Build 132
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+# 2015.11.29 17:23:41 (*) mk_custom_sdk starting
+# 2015.11.29 17:23:41 (*) Reading project D:/LAST/Last/test/test.ptf.
+
+# 2015.11.29 17:23:41 (*) Finding all CPUs
+# 2015.11.29 17:23:41 (*) Finding all available components
+# 2015.11.29 17:23:41 (*) Reading D:/LAST/Last/test/.sopc_builder/install.ptf
+
+# 2015.11.29 17:23:41 (*) Found 67 components
+
+# 2015.11.29 17:23:42 (*) Finding all peripherals
+
+# 2015.11.29 17:23:42 (*) Finding software components
+
+# 2015.11.29 17:23:42 (*) (Legacy SDK Generation Skipped)
+# 2015.11.29 17:23:42 (*) (All TCL Script Generation Skipped)
+# 2015.11.29 17:23:42 (*) (No Libraries Built)
+# 2015.11.29 17:23:42 (*) (Contents Generation Skipped)
+# 2015.11.29 17:23:42 (*) mk_custom_sdk finishing
+
+# 2015.11.29 17:23:42 (*) Starting generation for system: test.
+
+.
+.
+.
+.
+.
+
+# 2015.11.29 17:23:43 (*) Running Generator Program for cpu_0
+
+# 2015.11.29 17:23:46 (*)   Checking for plaintext license.
+# 2015.11.29 17:23:47 (*)   Plaintext license not found.
+# 2015.11.29 17:23:47 (*)   Checking for encrypted license (non-evaluation).
+# 2015.11.29 17:23:47 (*)   Encrypted license found.  SOF will not be time-limited.
+# 2015.11.29 17:23:47 (*)   Getting CPU configuration settings
+# 2015.11.29 17:23:47 (*)   Elaborating CPU configuration settings
+# 2015.11.29 17:23:47 (*)   Creating all objects for CPU
+# 2015.11.29 17:23:49 (*)   Generating HDL from CPU objects
+
+# 2015.11.29 17:23:51 (*)   Creating encrypted HDL
+
+# 2015.11.29 17:23:52 (*) Running Generator Program for pio_0
+
+# 2015.11.29 17:23:53 (*) Running Generator Program for sdram_0
+
+# 2015.11.29 17:23:54 (*) Running Generator Program for jtag_uart_0
+
+# 2015.11.29 17:23:55 (*) Running Generator Program for cpu_0_fpoint
+
+.
+
+# 2015.11.29 17:23:58 (*) Running Test Generator Program for sdram_0
+
+# 2015.11.29 17:23:59 (*) Making arbitration and system (top) modules.
+
+# 2015.11.29 17:24:02 (*) Generating Quartus symbol for top level: test
+
+# 2015.11.29 17:24:02 (*) Symbol D:/LAST/Last/test/test.bsf already exists, no need to regenerate
+
+# 2015.11.29 17:24:02 (*) Creating command-line system-generation script: D:/LAST/Last/test/test_generation_script
+
+# 2015.11.29 17:24:02 (*) Running setup for HDL simulator: modelsim
+
+
+# 2015.11.29 17:24:03 (*) Completed generation for system: test.
+# 2015.11.29 17:24:03 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : D:/LAST/Last/test/test.ptf 
+  System HDL Model : D:/LAST/Last/test/test.v 
+  System Generation Script : D:/LAST/Last/test/test_generation_script 
+
+# 2015.11.29 17:24:03 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.
